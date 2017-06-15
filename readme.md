@@ -4,7 +4,7 @@ Scriban is a fast, powerful and lightweight text templating language and engine 
 
 ```C#
 var template = Template.Parse("Hello {{name}}!")
-template.Render(new { name = "foo" }); // => "hi foo!" 
+template.Render(new { name = "foo" }); // => "Hello foo!" 
 ```
 
 Scriban is similar to [liquid](http://liquidmarkup.org/) or [handlebars](http://handlebarsjs.com/) but provides additional support for:
